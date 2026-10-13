@@ -1,0 +1,103 @@
+/* =========================
+   RESPONSIVE CSS
+========================= */
+
+@media (max-width: 1200px){
+
+  .second-part{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .wrapper2{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+}
+
+@media (max-width: 992px){
+
+  .first-part{
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  #fruitSlider{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .second-part,
+  .wrapper2{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .fifth-part{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .main-header-footer{
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .main-footer-section{
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  .third-part .wrapper{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-src1{
+    text-align: center;
+  }
+
+  .sf-1{
+    font-size: 38px;
+  }
+
+  .sf-2{
+    font-size: 30px;
+  }
+  .fifth-part {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 576px){
+
+  .nav ul{
+    display: none;
+  }
+
+  .first-part{
+    padding: 40px 15px;
+  }
+
+  .space-between{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .input-maker{
+    width: 100%;
+  }
+
+  .input-maker input,
+  .input-maker button{
+    font-size: 14px;
+  }
+ 
+}
