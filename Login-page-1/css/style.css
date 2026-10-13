@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container {
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content:space-around;
+
+}
+
+
+.fb-text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000;
+     max-width: 420px;
+}
+
+
+.m8-1 {
+    height: 60px;
+    margin-bottom: 15px;
+
+
+
+}
+
+.fonting {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 17% 10%;
+}
+
+.login-page {
+    background-color: #fff;
+    min-height: 400px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgb(221, 220, 220);
+}
+
+.m8-2 {
+    margin-top: 5%;
+    height: 50px;
+    width: 90%;
+    padding: 15px 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(221, 220, 220);
+    color: rgb(0, 0, 0);
+}
+
+.m8-3 {
+    margin: 12px 0;
+    height: 50px;
+    width: 90%;
+    padding: 15px 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(221, 220, 220);
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    margin: 12px 0;
+    height: 50px;
+    width: 90%;
+    background-color: #1877F2;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #3188f9;
+    font-weight: bolder;
+}
+
+.m8-4 {
+    margin-top: 12px;
+    color: #1877F2;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.m8-4:hover {
+    text-decoration: underline;
+}
+
+.or-hr {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #c6c4c4;
+    height: 1px;
+    width: 90%;
+    margin: 30px 0;
+
+}
+
+.btn1 {
+    background-color: #1abe2d;
+    border:  #1abe2d;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 50px;
+    width: 40%;
+    font-weight: bold;
+    /* margin: 12px 0; */
+}
+.btn1:hover{
+background-color: #309d3d;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: 120vh;
+  }
+   .fonting{
+    align-items: center;
+   }
+  .fonting p{
+    font-size: 15px;
+  }
+  .m8-1{
+    height: 70%;
+    width: 70%;
+  }
+  .login-page{
+    height: 200px;
+  }
+}
